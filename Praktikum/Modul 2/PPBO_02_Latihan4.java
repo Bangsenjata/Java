@@ -12,8 +12,6 @@ public class PPBO_02_Latihan4 {
     }
 }
 
-
-
 class Person
 {
     static int hitung;
