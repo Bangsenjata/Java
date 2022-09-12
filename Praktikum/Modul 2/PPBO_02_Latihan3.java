@@ -1,23 +1,28 @@
-public class Mahasiswa {
+// Nama : Gita Bangun Prakoso
+// NIM  : M0521024
+public class PPBO_02_Latihan3 {
     String nim, nama, alamat;
     char jenisKelamin;
-    Mahasiswa(String nim, String nama, char jenisKelamin, String alamat){
+    PPBO_02_Latihan3(String nim, String nama, char jenisKelamin, String alamat){
         this.nim = nim;
         this.nama = nama;
         this.jenisKelamin = jenisKelamin;
         this.alamat = alamat;
     }
+
     void cetak(){
-        System.out.println("Data Mahasiswa: ");
+        System.out.println("Identitas Mahasiswa: ");
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
         System.out.println("Jenis Kelamin: " + jenisKelamin);
         System.out.println("Alamat: " + alamat);
     }
-    // buatlah constructor untuk menginisiasi nilai dari variabel
-    // nim, nama, jenisKelamin, alamat
+
     public static void main(String[] args) {
-    Mahasiswa mhs = new Mahasiswa("M0501001", "Patrick Star", 'L', "Bikini Bottom");
-    mhs.cetak();
+        PPBO_02_Latihan3 id = new PPBO_02_Latihan3("M0501001", "Patrick Star", 'L', "Bikini Bottom");
+        id.cetak();
     }
 }
+
+// Buatlah constructor untuk menginisiasi nilai dari variabel
+// nim, nama, jenisKelamin, alamat
