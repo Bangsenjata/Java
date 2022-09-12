@@ -17,4 +17,4 @@ public class PPBO_02_Latihan2 {
 //           1. Menghapus final saat mendeklarasikan variabel KURS_DOLLAR
 //           2. Menghapus perubahan nilai (Menghapus line 8 atau membuatnya menjadi komentar)
 // Apa maksud penggunaan keyword static sebelum keyword final pada deklarasi variabel tersebut?
-// Jawaban : Supaya bisa mendeklrasikan variabel diluar objek
+// Jawaban : Supaya bisa mendeklrasikan variabel diluar objek dan menyimpan nilai walau beda objek
