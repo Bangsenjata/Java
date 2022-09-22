@@ -5,7 +5,7 @@ public class PPBO_02_Latihan2 {
     public static final double PI = 3.14;
     public static final String NAMA = "Squidward";
     public static void main(String args[]) {
-        KURS_DOLLAR = 13500;
+//        KURS_DOLLAR = 13500;
         System.out.println(KURS_DOLLAR);
         System.out.println(PI);
         System.out.println(NAMA);

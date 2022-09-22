@@ -1,7 +1,7 @@
 // Nama : Gita Bangun Prakoso
 // NIM  : M0521024
 public class PPBO_02_Latihan1 {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         int a = 10;
         double b = 3.0;
         float c = 4.3f;
